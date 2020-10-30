@@ -1,0 +1,33 @@
+{
+  "name": "capacitor-app",
+  "version": "1.0.0",
+  "description": "An Amazing Capacitor App",
+  "main": "index.js",
+  "externals": {
+    "./*.json": false
+  },
+  "assetsPath": "./static",
+  "scripts": {
+    "start": "parcel game/index.html --no-autoinstall --out-dir www",
+    "typecheck": "tsc -p . --noEmit",
+    "build": "parcel build game/index.html --out-dir www"
+  },
+  "keywords": [
+    "capacitor",
+    "mobile"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@capacitor/android": "^2.4.2",
+    "@capacitor/cli": "^2.4.2",
+    "@capacitor/core": "^2.4.2",
+    "excalibur": "0.24.5"
+  },
+  "devDependencies": {
+    "parcel-bundler": "1.12.4",
+    "parcel-plugin-asset-copier": "1.1.0",
+    "parcel-plugin-html-externals": "0.2.0",
+    "typescript": "4.0.5"
+  }
+}

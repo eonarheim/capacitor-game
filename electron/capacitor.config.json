@@ -1,0 +1,12 @@
+{
+  "appId": "com.excalibur.test.app",
+  "appName": "Excalibur Test",
+  "bundledWebRuntime": true,
+  "npmClient": "npm",
+  "webDir": "www",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    }
+  }
+}
