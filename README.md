@@ -1,5 +1,9 @@
 ## Test Excalibur Game
 
+More details in my [blog post](https://erikonarheim.com/posts/capacitorjs-game/)
+
+![](https://erikonarheim.com/images/capacitorjs-game/excalibur-capacitor.gif)
+
 Running the development server
 * `npm install`
 * `npm run start`
